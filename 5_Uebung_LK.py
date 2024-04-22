@@ -25,7 +25,7 @@ class MyWindow(QMainWindow):
         # Layout füllen:
         layout.addRow("Vorname:", self.vornameLineEdit)
         layout.addRow("Nachname:", self.nachnameLineEdit)
-        layout.addRow("Age:", self.geburtstagLineEdit)
+        layout.addRow("Geburtstag:", self.geburtstagLineEdit)
         layout.addRow("Adresse:", self.adresseLineEdit)
         layout.addRow("PLZ:", self.plzLineEdit)
         layout.addRow("Ort:", self.ortLineEdit)
